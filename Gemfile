@@ -1,5 +1,8 @@
-source 'https://rubygems.org'
-ruby '2.0.0'
+source 'http://rubygems.org'
+# ruby '2.1.1'
+
+# environment variables
+gem 'dotenv'
 
 gem 'rails', '~> 4.0'
 gem 'activerecord-session_store'
@@ -44,8 +47,8 @@ end
 
 group :development, :test do
   gem 'sqlite3', '~> 1', platform: [:ruby, :mswin, :mingw]
-  gem 'capistrano'
-  gem 'capistrano_colors'
+  # gem 'capistrano'
+  # gem 'capistrano_colors'
   gem 'quiet_assets'
   gem 'guard-livereload', require: false
   gem 'rack-livereload'
@@ -57,3 +60,5 @@ group :assets do
   gem 'coffee-rails'
   gem 'uglifier'
 end
+
+gem "puma"

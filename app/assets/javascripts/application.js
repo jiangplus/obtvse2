@@ -1,7 +1,6 @@
 //= require _fn
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require avgrund
 //= require prettify
 //= require prettify/lang-css

@@ -27,3 +27,5 @@
 # Stupid configs for livereload
 /app/assets/*/config.rb
 /app/assets/*/*/config.rb
+
+.env
